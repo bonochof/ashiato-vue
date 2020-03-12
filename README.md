@@ -1,4 +1,4 @@
-# ashiato
+# vue
 
 > My mathematical Nuxt.js project
 
