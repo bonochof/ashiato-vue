@@ -4,7 +4,7 @@
     <v-flex class="text-center">
       <v-row justify="end">
         <v-col cols="6">
-          <v-img width="600" class="img-title" src="/images/title.png" />
+          <title-image />
           <div>
             <span class="font--primary">研究者</span>を目指す<span
               class="font--primary"
@@ -67,10 +67,12 @@
 import 'vue-good-table/dist/vue-good-table.css'
 import { VueGoodTable } from 'vue-good-table'
 import Header from '~/components/Header.vue'
+import TitleImage from '~/components/TitleImage.vue'
 export default {
   components: {
     VueGoodTable,
-    Header
+    Header,
+    TitleImage
   },
   data() {
     return {
@@ -142,8 +144,5 @@ export default {
 <style scoped>
 .font--primary {
   color: #d2691e;
-}
-.img-title {
-  border: solid;
 }
 </style>
