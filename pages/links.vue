@@ -1,8 +1,16 @@
 <template>
   <v-layout>
-    <Header title="Links" />
+    <Header title="あしあと - Links" />
     <v-flex class="text-center">
-      このページではリンクを貼っています．
+      <v-row justify="center">
+        <v-col cols="6">
+          <v-img width="600" class="img-title" src="/images/title.png" />
+          <div>
+            このページでは<span class="font--primary">リンク</span
+            >を貼っています．
+          </div>
+        </v-col>
+      </v-row>
     </v-flex>
   </v-layout>
 </template>
@@ -15,3 +23,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.font--primary {
+  color: #d2691e;
+}
+</style>
