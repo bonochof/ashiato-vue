@@ -35,7 +35,12 @@
 
 <script>
 export default {
-  props: ['title'],
+  props: {
+    title: {
+      type: String,
+      required: true
+    }
+  },
   data() {
     return {
       clipped: false,
