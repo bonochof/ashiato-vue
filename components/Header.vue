@@ -16,7 +16,7 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon :color="item.color">{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -44,31 +44,37 @@ export default {
       items: [
         {
           icon: 'mdi-home',
+          color: 'red lighten-1',
           title: 'Home',
           to: '/'
         },
         {
           icon: 'mdi-account',
+          color: 'green',
           title: 'Profile',
           to: '/profile'
         },
         {
           icon: 'mdi-toolbox',
+          color: 'purple darken-1',
           title: 'Tools',
           to: '/tools'
         },
         {
           icon: 'mdi-gamepad-variant',
+          color: 'blue',
           title: 'Games',
           to: '/games'
         },
         {
           icon: 'mdi-text-box-search-outline',
+          color: 'grey darken-3',
           title: 'Research',
           to: '/research'
         },
         {
           icon: 'mdi-link-variant',
+          color: 'green accent-3',
           title: 'Links',
           to: '/links'
         }
