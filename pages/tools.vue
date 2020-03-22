@@ -67,6 +67,7 @@ import TabToSpaceConvert from '~/components/tools/TabToSpaceConvert.vue'
 import Tokaido53 from '~/components/tools/Tokaido53.vue'
 export default {
   components: {
+    Header,
     TitleImage,
     BaseNumberConvert,
     Clock,
@@ -74,7 +75,6 @@ export default {
     Count,
     Dice,
     Omikuji,
-    Header,
     Repeat,
     StopWatch,
     TabToSpaceConvert,
@@ -88,8 +88,8 @@ export default {
           title: '現在時刻'
         },
         {
-          key: 'timer',
-          title: 'タイマー'
+          key: 'stop-watch',
+          title: 'ストップウォッチ'
         },
         {
           key: 'omikuji',
