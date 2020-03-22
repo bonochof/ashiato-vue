@@ -13,6 +13,7 @@
     "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
+    "moment": "^2.24.0",
     "nuxt": "^2.0.0",
     "vue-good-table": "^2.19.1"
   },
