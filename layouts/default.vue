@@ -1,9 +1,13 @@
 <template>
-  <v-app dark>
+  <v-app class="bg" dark>
     <v-content>
-      <v-container>
-        <nuxt />
-      </v-container>
+      <nuxt />
     </v-content>
   </v-app>
 </template>
+
+<style scoped>
+.bg {
+  background-image: url('/images/back.jpg');
+}
+</style>

@@ -1,66 +1,85 @@
 <template>
-  <v-layout>
+  <v-container>
     <Header title="あしあと - Home" />
-    <v-flex class="text-center">
-      <v-row justify="end">
-        <v-col cols="6">
-          <title-image />
-          <div>
-            <span class="font--primary">研究者</span>を目指す<span
-              class="font--primary"
-              >情報系</span
-            >の<span class="font--primary">学生</span>が気まぐれで<span
-              class="font--primary"
-              >あしあと</span
-            >👣を残すサイトです．
-          </div>
-        </v-col>
-        <v-col cols="3">
-          <a
-            class="twitter-timeline"
-            data-width="250"
-            data-height="400"
-            data-theme="light"
-            data-link-color="#19CF86"
-            href="https://twitter.com/bonochof?ref_src=twsrc%5Etfw"
-            >Tweets by bonochof</a
-          >
-          <script
-            async
-            src="https://platform.twitter.com/widgets.js"
-            charset="utf-8"
-          ></script>
-        </v-col>
-      </v-row>
-      <v-card>
-        <v-card-title>
-          更新情報（最終更新日時: {{ rows[0].date }}）
-        </v-card-title>
-        <v-card-text>
-          <vue-good-table
-            :columns="columns"
-            :rows="rows"
-            :fixed-header="true"
-            :pagination-options="{
-              enabled: true,
-              perPageDropdown: [5, 10, 30]
-            }"
-            :sort-options="{
-              enabled: false
-            }"
-          />
-        </v-card-text>
-      </v-card>
-      <v-card class="mt-2">
-        <v-card-title>Github</v-card-title>
-        <v-card-text>
-          <a href="https://github.com/bonochof" target="_blank"
-            ><v-img src="https://grass-graph.moshimo.works/images/bonochof.png"
-          /></a>
-        </v-card-text>
-      </v-card>
-    </v-flex>
-  </v-layout>
+    <v-row justify="center">
+      <v-col md="6" cols="12">
+        <title-image />
+        <div class="text-center intro-text">
+          <span class="font-primary">研究者</span>を目指す<span
+            class="font-primary"
+            >情報系</span
+          >の<span class="font-primary">学生</span>が気まぐれで<span
+            class="font-primary"
+            >あしあと</span
+          >👣を残すサイトです．
+        </div>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col md="9" cols="12">
+        <v-row>
+          <v-col>
+            <v-card>
+              <v-card-title>
+                更新情報<span class="updatedAt-text"
+                  >（最終更新日時: {{ rows[0].date }}）</span
+                >
+              </v-card-title>
+              <v-card-text>
+                <vue-good-table
+                  class="update-table"
+                  :columns="columns"
+                  :rows="rows"
+                  :fixed-header="true"
+                  :pagination-options="{
+                    enabled: true,
+                    perPageDropdown: [5, 10, 30]
+                  }"
+                  :sort-options="{
+                    enabled: false
+                  }"
+                />
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+        <v-row>
+          <v-col>
+            <v-card class="mt-2">
+              <v-card-title>Github</v-card-title>
+              <v-card-text>
+                <a href="https://github.com/bonochof" target="_blank"
+                  ><v-img
+                    src="https://grass-graph.moshimo.works/images/bonochof.png"
+                /></a>
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-col>
+      <v-col class="twitter-col" md="3" cols="12">
+        <v-card class="mt-3">
+          <v-card-title>Twitter</v-card-title>
+          <v-card-text>
+            <a
+              class="twitter-timeline"
+              data-width="100%"
+              :data-height="twitterTimelineHeight"
+              data-theme="light"
+              data-link-color="#19CF86"
+              href="https://twitter.com/bonochof?ref_src=twsrc%5Etfw"
+              >Tweets by bonochof</a
+            >
+            <script
+              async
+              src="https://platform.twitter.com/widgets.js"
+              charset="utf-8"
+            ></script>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -68,6 +87,7 @@ import 'vue-good-table/dist/vue-good-table.css'
 import { VueGoodTable } from 'vue-good-table'
 import Header from '~/components/Header.vue'
 import TitleImage from '~/components/TitleImage.vue'
+import DeviceUtility from '~/plugins/DeviceUtility.js'
 export default {
   components: {
     VueGoodTable,
@@ -76,6 +96,7 @@ export default {
   },
   data() {
     return {
+      twitterTimelineHeight: 0,
       columns: [
         {
           label: '日時',
@@ -137,12 +158,42 @@ export default {
         }
       ]
     }
+  },
+  created() {
+    if (DeviceUtility.isSp()) {
+      this.twitterTimelineHeight = 400
+    } else {
+      this.twitterTimelineHeight = 590
+    }
   }
 }
 </script>
 
-<style scoped>
-.font--primary {
+<style scoped lang="scss">
+.font-primary {
   color: #d2691e;
+}
+.twitter-col {
+  min-height: 100%;
+}
+.updatedAt-text {
+  font-size: 14px;
+}
+.intro-text {
+  font-size: 10px;
+}
+.update-table ::v-deep .vgt-table {
+  font-size: 10px;
+}
+@media only screen and (min-width: 651px) {
+  .updatedAt-text {
+    font-size: 1.25rem;
+  }
+  .intro-text {
+    font-size: 16px;
+  }
+  .update-table ::v-deep .vgt-table {
+    font-size: 16px;
+  }
 }
 </style>
