@@ -1,6 +1,7 @@
 <template>
   <v-card-text>
     <vue-good-table
+      class="award-table"
       :columns="columns"
       :rows="rows"
       :fixed-header="true"
@@ -187,8 +188,13 @@ export default {
 }
 </script>
 
-<style scoped>
-.font--primary {
-  color: #d2691e;
+<style lang="scss" scoped>
+.award-table ::v-deep .vgt-table {
+  font-size: 10px;
+}
+@media only screen and (min-width: 651px) {
+  .award-table ::v-deep .vgt-table {
+    font-size: 16px;
+  }
 }
 </style>

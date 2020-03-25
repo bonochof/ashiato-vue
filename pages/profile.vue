@@ -1,46 +1,72 @@
 <template>
-  <v-layout>
+  <v-container>
     <Header title="あしあと - Profile" />
-    <v-flex class="text-center">
-      <v-row justify="center">
-        <v-col cols="6">
-          <title-image />
-          <div>
-            このページでは私の<span class="font--primary">プロフィール</span
-            >を載せています．
-          </div>
-        </v-col>
-      </v-row>
-      <v-card>
-        <v-card-title>高田亮介（Takata Ryosuke）</v-card-title>
-        <v-tabs v-model="tab" grow>
-          <v-tab v-for="item in items" :key="item.key">
+    <v-row justify="center">
+      <v-col md="6" cols="12">
+        <title-image />
+        <div class="text-center intro-text">
+          このページでは私の<span class="font--primary">プロフィール</span
+          >を載せています．
+        </div>
+      </v-col>
+    </v-row>
+    <v-card class="pc-only">
+      <v-card-title>高田亮介（Takata Ryosuke）</v-card-title>
+      <v-tabs v-model="tab" grow>
+        <v-tab v-for="item in items" :key="item.key">
+          <v-icon :color="item.color">{{ item.icon }}</v-icon>
+          {{ item.tab }}
+        </v-tab>
+      </v-tabs>
+      <v-tabs-items v-model="tab">
+        <v-tab-item v-for="item in items" :key="item.key">
+          <v-card v-if="item.key === 'history'">
+            <history />
+          </v-card>
+          <v-card v-else-if="item.key === 'award'">
+            <award />
+          </v-card>
+          <v-card v-else-if="item.key === 'thesis'">
+            <thesis />
+          </v-card>
+          <v-card v-else>
+            <v-card-title>趣味</v-card-title>
+            <hobby />
+            <v-card-title>興味</v-card-title>
+            <interest />
+          </v-card>
+        </v-tab-item>
+      </v-tabs-items>
+    </v-card>
+    <v-card class="sp-only">
+      <v-card-title>高田亮介（Takata Ryosuke）</v-card-title>
+      <v-expansion-panels popout="true" multiple="true">
+        <v-expansion-panel v-for="item in items" :key="item.key">
+          <v-expansion-panel-header class="t">
             <v-icon :color="item.color">{{ item.icon }}</v-icon>
             {{ item.tab }}
-          </v-tab>
-        </v-tabs>
-        <v-tabs-items v-model="tab">
-          <v-tab-item v-for="item in items" :key="item.key">
-            <v-card v-if="item.key === 'history'">
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <div v-if="item.key === 'history'">
               <history />
-            </v-card>
-            <v-card v-else-if="item.key === 'award'">
+            </div>
+            <div v-else-if="item.key === 'award'">
               <award />
-            </v-card>
-            <v-card v-else-if="item.key === 'thesis'">
+            </div>
+            <div v-else-if="item.key === 'thesis'">
               <thesis />
-            </v-card>
-            <v-card v-else>
+            </div>
+            <div v-else>
               <v-card-title>趣味</v-card-title>
               <hobby />
               <v-card-title>興味</v-card-title>
               <interest />
-            </v-card>
-          </v-tab-item>
-        </v-tabs-items>
-      </v-card>
-    </v-flex>
-  </v-layout>
+            </div>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+      </v-expansion-panels>
+    </v-card>
+  </v-container>
 </template>
 
 <script>
@@ -91,8 +117,19 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .font--primary {
   color: #d2691e;
+}
+.intro-text {
+  font-size: 10px;
+}
+@media only screen and (min-width: 651px) {
+  .intro-text {
+    font-size: 16px;
+  }
+}
+.v-icon {
+  display: block;
 }
 </style>
