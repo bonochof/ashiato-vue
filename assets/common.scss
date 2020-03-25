@@ -1,0 +1,14 @@
+.pc-only {
+  display: block !important;
+}
+.sp-only {
+  display: none !important;
+}
+@media only screen and (max-width: 750px) {
+  .pc-only {
+    display: none !important;
+  }
+  .sp-only {
+    display: block !important;
+  }
+}

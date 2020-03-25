@@ -1,6 +1,7 @@
 <template>
   <v-card-text>
     <vue-good-table
+      class="history-table"
       :columns="columns"
       :rows="rows"
       :fixed-header="true"
@@ -66,3 +67,14 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.history-table ::v-deep .vgt-table {
+  font-size: 10px;
+}
+@media only screen and (min-width: 651px) {
+  .history-table ::v-deep .vgt-table {
+    font-size: 16px;
+  }
+}
+</style>

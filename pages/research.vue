@@ -1,23 +1,21 @@
 <template>
-  <v-layout>
+  <v-container>
     <Header title="あしあと - Research" />
-    <v-flex class="text-center">
-      <v-row justify="center">
-        <v-col cols="6">
-          <title-image />
-          <div>
-            このページでは私の<span class="font--primary">研究</span
-            >を紹介します．
-          </div>
-        </v-col>
-      </v-row>
-      <v-row>
-        <v-col v-for="item in items" :key="item.title" cols="6">
-          <research-video :title="item.title" :src="item.src" />
-        </v-col>
-      </v-row>
-    </v-flex>
-  </v-layout>
+    <v-row justify="center">
+      <v-col md="6" cols="12">
+        <title-image />
+        <div class="text-center intro-text">
+          このページでは私の<span class="font--primary">研究</span
+          >を紹介します．
+        </div>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col v-for="item in items" :key="item.title" md="6" sm="6" cols="12">
+        <research-video :title="item.title" :src="item.src" />
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -72,5 +70,13 @@ export default {
 <style scoped>
 .font--primary {
   color: #d2691e;
+}
+.intro-text {
+  font-size: 10px;
+}
+@media only screen and (min-width: 651px) {
+  .intro-text {
+    font-size: 16px;
+  }
 }
 </style>
