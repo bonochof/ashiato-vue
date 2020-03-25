@@ -1,29 +1,34 @@
 <template>
-  <v-layout>
+  <v-container>
     <Header title="あしあと - Games" />
-    <v-flex class="text-center">
-      <v-row justify="center">
-        <v-col cols="6">
-          <title-image />
-          <div>
-            このページでは<span class="font--primary">自作ゲーム</span
-            >を紹介します．
-          </div>
+    <v-row justify="center">
+      <v-col md="6" cols="12">
+        <title-image />
+        <div class="text-center intro-text">
+          このページでは<span class="font--primary">自作ゲーム</span
+          >を紹介します．
+        </div>
+      </v-col>
+    </v-row>
+    <v-card>
+      <v-row>
+        <v-col
+          v-for="item in items"
+          :key="item.key"
+          lg="3"
+          md="4"
+          sm="6"
+          cols="12"
+        >
+          <v-card-title>{{ item.title }}</v-card-title>
+          <a :href="item.link" target="_blank">
+            <v-img :src="item.src" class="img-game" />
+          </a>
+          <v-card-text class="text-left">{{ item.text }}</v-card-text>
         </v-col>
       </v-row>
-      <v-card>
-        <v-row>
-          <v-col v-for="item in items" :key="item.key" cols="4">
-            <v-card-title>{{ item.title }}</v-card-title>
-            <a :href="item.link" target="_blank">
-              <v-img :src="item.src" class="img-game" />
-            </a>
-            <v-card-text class="text-left">{{ item.text }}</v-card-text>
-          </v-col>
-        </v-row>
-      </v-card>
-    </v-flex>
-  </v-layout>
+    </v-card>
+  </v-container>
 </template>
 
 <script>
@@ -89,5 +94,13 @@ export default {
 }
 .img-game {
   border: black solid;
+}
+.intro-text {
+  font-size: 10px;
+}
+@media only screen and (min-width: 651px) {
+  .intro-text {
+    font-size: 16px;
+  }
 }
 </style>
