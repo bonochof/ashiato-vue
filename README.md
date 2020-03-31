@@ -24,7 +24,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 ## Deploy Memo
 ```
     <!-- admax(PC02) -->
-    <div id="ad02"><script src="//adm.shinobi.jp/s/53e52e441fa079ad9f4f2ee470d6ef5f"></script></div>
+    <div id="ad02" style="text-align:center;"><script src="//adm.shinobi.jp/s/53e52e441fa079ad9f4f2ee470d6ef5f"></script></div>
     <!-- admax(PC02) -->
     <!-- NINJA ANALYZE -->
     <script type="text/javascript">
