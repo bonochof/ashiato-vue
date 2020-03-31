@@ -66,6 +66,12 @@ export default {
           to: '/tools'
         },
         {
+          icon: 'mdi-lightbulb-on',
+          color: 'orange',
+          title: 'Products',
+          to: '/products'
+        },
+        {
           icon: 'mdi-gamepad-variant',
           color: 'blue',
           title: 'Games',
