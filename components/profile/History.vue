@@ -27,7 +27,7 @@ export default {
           field: 'year',
           type: 'string',
           thClass: 'text-center',
-          tdClass: 'text-center'
+          tdClass: 'text-left'
         },
         {
           label: '内容',
