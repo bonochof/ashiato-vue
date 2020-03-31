@@ -117,6 +117,10 @@ export default {
       ],
       rows: [
         {
+          date: '2020.04.01 03:30',
+          content: 'ページ「Products」追加'
+        },
+        {
           date: '2020.03.31 18:40',
           content: 'Vue.js版に完全移行'
         },
