@@ -117,6 +117,10 @@ export default {
       ],
       rows: [
         {
+          date: '2020.03.31 18:40',
+          content: 'Vue.js版に完全移行'
+        },
+        {
           date: '2020.03.26 02:14',
           content: 'Vue.js版を公開(右上SWITCHで変更可)'
         },
@@ -159,6 +163,94 @@ export default {
         {
           date: '2019.03.16 00:00',
           content: 'サブタイトル変更'
+        },
+        {
+          date: '2019.03.09 00:00',
+          content: 'Profile(ポートフォリオ)更新'
+        },
+        {
+          date: '2019.02.23 00:00',
+          content: 'Minimax探索オセロ追加'
+        },
+        {
+          date: '2019.02.20 00:00',
+          content: 'ページ「Profile」追加'
+        },
+        {
+          date: '2019.02.19 00:00',
+          content: 'ページ「Note」追加'
+        },
+        {
+          date: '2018.10.14 00:00',
+          content: 'DXOpalサンプルゲーム追加'
+        },
+        {
+          date: '2018.07.07 00:00',
+          content: 'タブ文字→スペース変換ツール追加'
+        },
+        {
+          date: '2018.06.21 00:00',
+          content: 'favicon追加'
+        },
+        {
+          date: '2018.06.18 00:00',
+          content: 'ページ「Tools」追加'
+        },
+        {
+          date: '2018.06.17 00:00',
+          content: 'タイトルデザイン変更'
+        },
+        {
+          date: '2018.03.15 00:00',
+          content: 'ページ「Blog」追加'
+        },
+        {
+          date: '2017.12.22 00:00',
+          content: 'YouTube動画#6を追加'
+        },
+        {
+          date: '2017.12.20 00:00',
+          content: 'YouTubeチャンネルのリンクを追加'
+        },
+        {
+          date: '2017.12.19 00:00',
+          content: 'YouTube動画#5を追加'
+        },
+        {
+          date: '2017.12.16 00:00',
+          content: 'YouTube動画#4を追加'
+        },
+        {
+          date: '2017.12.15 00:00',
+          content: 'YouTube動画#3を追加'
+        },
+        {
+          date: '2017.12.10 00:00',
+          content: 'YouTube動画#2を追加'
+        },
+        {
+          date: '2017.12.09 00:00',
+          content: 'ページ「Research」追加'
+        },
+        {
+          date: '2017.12.06 00:00',
+          content: 'Gamesに写真を追加'
+        },
+        {
+          date: '2017.12.06 00:00',
+          content: 'GitHubのリンクを追加'
+        },
+        {
+          date: '2017.07.01 00:00',
+          content: 'ページ「Games」追加'
+        },
+        {
+          date: '2017.06.30 00:00',
+          content: 'ページ「Links」追加'
+        },
+        {
+          date: '2017.06.30 00:00',
+          content: 'サイト開設'
         }
       ]
     }
