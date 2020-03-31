@@ -42,6 +42,11 @@ export default {
           link: 'https://twitter.com/bonochof/'
         },
         {
+          key: 'facebook',
+          icon: 'mdi-facebook',
+          link: 'https://www.facebook.com/ryosuke.takata.9'
+        },
+        {
           key: 'scrapbox',
           icon: 'mdi-alpha-s-circle',
           link: 'https://scrapbox.io/ashiato-note/'
