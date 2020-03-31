@@ -11,7 +11,7 @@
       </v-col>
     </v-row>
     <v-card class="pc-only">
-      <v-card-title>高田亮介（Takata Ryosuke）</v-card-title>
+      <v-card-title>高田亮介（TAKATA Ryosuke）</v-card-title>
       <v-tabs v-model="tab" grow>
         <v-tab v-for="item in items" :key="item.key">
           <v-icon :color="item.color">{{ item.icon }}</v-icon>
