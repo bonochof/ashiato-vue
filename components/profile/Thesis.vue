@@ -33,14 +33,22 @@ export default {
         {
           title:
             'Design of Cooperative Interaction between Humans and AI Creatures through Reinforcement Learning',
-          content: ['HAI 2019, Oct. 2019', 'Ryosuke Takata, Yugo Takeuchi']
+          content: ['HAI 2019, Oct. 2019', 'Ryosuke TAKATA, Yugo TAKEUCHI']
         },
         {
           title:
             'Design of Cooperative Interaction between Humans and Agents through Reinforcement Learning',
           content: [
             'Next Generation Human-Agent Interaction Workshop, Oct. 2019',
-            'Ryosuke Takata, Yugo Takeuchi'
+            'Ryosuke TAKATA, Yugo TAKEUCHI'
+          ]
+        },
+        {
+          title:
+            'Learning Method to Discover Secret Tricks Using Reinforcement Learning',
+          content: [
+            'NIT-NUU Bilateral Academic Conference, Jul. 2018',
+            'Tsuyoshi HASHIMOTO, Ryosuke TAKATA'
           ]
         },
         {
