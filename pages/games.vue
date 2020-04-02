@@ -48,14 +48,15 @@ export default {
           link: 'https://ashiato.kenkenpa.net/games/minimax-othello/index.html',
           src: '/images/games/othello.PNG',
           text:
-            '高専4年(19歳)のときに授業で作成したオセロをDXOpalに移植した．Minimax探索するコンピュータを実装している．'
+            '高専4年(19歳)のときに授業で作成したオセロをDXOpalに移植した．Web上で遊べる．Minimax探索するコンピュータを実装している．'
         },
         {
           key: 'apple',
           title: 'りんご拾い',
           link: 'https://ashiato.kenkenpa.net/games/apple-catch/index.html',
           src: '/images/games/apple.PNG',
-          text: 'DXOpalを構ってみた．るびまを参考にして作ったゲーム．'
+          text:
+            'DXOpalを構ってみた．るびまを参考にして作ったゲーム．Web上で遊べる．'
         },
         {
           key: 'messtory',
@@ -81,6 +82,22 @@ export default {
           src: '/images/games/kbdefence.PNG',
           text:
             '高専3年(18歳)のときに作成したゲーム．ディフェンスゲーム(自分の城を守りつつ相手の城を攻めるタイプのゲーム)を作りたいと思い，キーボードの英字キーを兵士に見立てたディフェンスゲームを作成した．DXライブラリを使用した．'
+        },
+        {
+          key: 'tm',
+          title: 'THREE.MAZE',
+          link: '',
+          src: '/images/games/tm.png',
+          text:
+            '大学3年(21歳)のときに作成したゲーム．3次元空間上で対戦可能な迷路ゲーム．'
+        },
+        {
+          key: 'hiyoko',
+          title: 'ひよこ流し',
+          link: 'https://farewell-party.herokuapp.com/',
+          src: '/images/games/hiyoko.png',
+          text:
+            '大学4年(22歳)のときに作成したスマホゲーム．Web上で遊べる．水泳部の追いコンの為に作った．'
         }
       ]
     }
