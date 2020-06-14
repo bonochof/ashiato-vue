@@ -99,12 +99,12 @@ export default {
         {
           key: 'award',
           icon: 'mdi-account-details',
-          tab: '活動/受賞等'
+          tab: '活動/受賞'
         },
         {
           key: 'thesis',
           icon: 'mdi-account-edit',
-          tab: '論文'
+          tab: '発表/論文'
         },
         {
           key: 'other',
