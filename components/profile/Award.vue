@@ -7,7 +7,7 @@
       :fixed-header="true"
       :pagination-options="{
         enabled: true,
-        perPageDropdown: [5, 10, 30]
+        perPageDropdown: [10]
       }"
       :sort-options="{
         enabled: false
