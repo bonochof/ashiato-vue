@@ -117,6 +117,10 @@ export default {
       ],
       rows: [
         {
+          date: '2020.06.14 19:50',
+          content: '活動と発表と肩書きを追加'
+        },
+        {
           date: '2020.04.01 03:30',
           content: 'ページ「Products」追加'
         },
