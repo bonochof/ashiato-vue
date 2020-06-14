@@ -1,8 +1,8 @@
 {
   "name": "vue",
   "version": "1.0.0",
-  "description": "My mathematical Nuxt.js project",
-  "author": "kakke18",
+  "description": "My portfolio project using Nuxt.js",
+  "author": "bonochof",
   "private": true,
   "scripts": {
     "dev": "cross-env HOST=0.0.0.0 PORT=3001 nuxt",
