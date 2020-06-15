@@ -12,7 +12,7 @@
     </v-row>
     <v-card class="pc-only">
       <v-card-title>高田亮介（TAKATA Ryosuke）</v-card-title>
-      <v-card-subtitle>大学院生 / プログラマ / 水泳コーチ</v-card-subtitle>
+      <v-card-subtitle>大学院生 / システムエンジニア / 水泳コーチ</v-card-subtitle>
       <v-tabs v-model="tab" grow>
         <v-tab v-for="item in items" :key="item.key">
           <v-icon :color="item.color">{{ item.icon }}</v-icon>
@@ -41,7 +41,7 @@
     </v-card>
     <v-card class="sp-only">
       <v-card-title>高田亮介（Takata Ryosuke）</v-card-title>
-      <v-card-subtitle>大学院生 / プログラマ / 水泳コーチ</v-card-subtitle>
+      <v-card-subtitle>大学院生 / システムエンジニア / 水泳コーチ</v-card-subtitle>
       <v-expansion-panels popout="true" multiple="true">
         <v-expansion-panel v-for="item in items" :key="item.key">
           <v-expansion-panel-header class="t">
