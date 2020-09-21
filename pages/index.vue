@@ -117,8 +117,16 @@ export default {
       ],
       rows: [
         {
+          date: '2020.09.21 14:55',
+          content: 'Researchページに研究テーマを追加'
+        },
+        {
+          date: '2020.09.20 23:59',
+          content: 'ページ「Videos」追加'
+        },
+        {
           date: '2020.06.14 19:50',
-          content: '活動と発表と肩書きを追加'
+          content: 'Profileページに活動と発表と肩書きを追加'
         },
         {
           date: '2020.04.01 03:30',
