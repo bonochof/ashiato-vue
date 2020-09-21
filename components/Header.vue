@@ -49,33 +49,15 @@ export default {
       items: [
         {
           icon: 'mdi-home',
-          color: 'red lighten-1',
+          color: 'grey darken-3',
           title: 'Home',
           to: '/'
         },
         {
           icon: 'mdi-account',
-          color: 'green',
+          color: 'grey darken-3',
           title: 'Profile',
           to: '/profile'
-        },
-        {
-          icon: 'mdi-toolbox',
-          color: 'purple darken-1',
-          title: 'Tools',
-          to: '/tools'
-        },
-        {
-          icon: 'mdi-lightbulb-on',
-          color: 'orange',
-          title: 'Products',
-          to: '/products'
-        },
-        {
-          icon: 'mdi-gamepad-variant',
-          color: 'blue',
-          title: 'Games',
-          to: '/games'
         },
         {
           icon: 'mdi-text-box-search-outline',
@@ -84,8 +66,32 @@ export default {
           to: '/research'
         },
         {
+          icon: 'mdi-lightbulb-on',
+          color: 'grey darken-3',
+          title: 'Products',
+          to: '/products'
+        },
+        {
+          icon: 'mdi-gamepad-variant',
+          color: 'grey darken-3',
+          title: 'Games',
+          to: '/games'
+        },
+        {
+          icon: 'mdi-movie',
+          color: 'grey darken-3',
+          title: 'Videos',
+          to: '/videos'
+        },
+        {
+          icon: 'mdi-toolbox',
+          color: 'grey darken-3',
+          title: 'Tools',
+          to: '/tools'
+        },
+        {
           icon: 'mdi-link-variant',
-          color: 'green accent-3',
+          color: 'grey darken-3',
           title: 'Links',
           to: '/links'
         }
