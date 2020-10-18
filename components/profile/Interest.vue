@@ -19,40 +19,31 @@ export default {
     return {
       items: [
         {
-          title: '旅',
-          content: ['いつだって自然に囲まれた場所に行きたい']
+          title: '旅'
         },
         {
-          title: 'Ruby',
-          content: ['Matz江市の誇り', '一番気楽に書ける']
+          title: 'Ruby'
         },
         {
-          title: '温泉',
-          content: ['かなり長風呂(ただしのぼせる)']
+          title: '温泉'
         },
         {
-          title: '甘いもの',
-          content: ['無限に食べたい']
+          title: '甘いもの'
         },
         {
-          title: '認知科学',
-          content: ['大学で研究を始めてから人の面白さを感じる']
+          title: '認知科学'
         },
         {
-          title: '人工生命',
-          content: ['生命とは何か？という哲学を寝る前に考えてニヤニヤしてる']
+          title: '人工生命'
         },
         {
-          title: 'ゲーム情報学',
-          content: ['高専での研究から現在までの研究領域']
+          title: 'ゲーム情報学'
         },
         {
-          title: 'イオンモール',
-          content: ['毎日通ってる', '気付いたら株主になってた']
+          title: 'イオンモール'
         },
         {
-          title: 'Official髭男dism',
-          content: ['山陰の誇り', '大輔さん(ギター)は兄の同級生']
+          title: 'Official髭男dism'
         }
       ]
     }
