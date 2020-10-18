@@ -117,6 +117,10 @@ export default {
       ],
       rows: [
         {
+          date: '2020.10.18 16:50',
+          content: 'Profileを編集'
+        },
+        {
           date: '2020.09.21 14:55',
           content: 'Researchページに研究テーマを追加'
         },
