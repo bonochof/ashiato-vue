@@ -46,7 +46,7 @@ export default {
         {
           date: '2020.10.17-18',
           content:
-            '<b>ヒューマンインタフェースサイバーコロキウム</b><br>口頭発表(オンライン)．'
+            '<b>ヒューマンインタフェースサイバーコロキウム</b><br>口頭発表(オンライン)．<span style="color:maroon;font-weight:bold">優秀発表賞</span>を受賞．記事は<a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154495" target="_blank">こちら</a>'
         },
         {
           date: '2020.9.17-19',
@@ -71,7 +71,7 @@ export default {
         {
           date: '2019.12.12',
           content:
-            '<b>成績優秀者 表彰式</b><br>静岡大学における成績優秀者賞を受賞し，後期授業料が全額免除．記事は<a href="https://www.shizuoka.ac.jp/news/detail.html?CN=6136" target="_blank">こちら</a>．'
+            '<b>成績優秀者 表彰式</b><br>静岡大学における<span style="color:maroon;font-weight:bold">成績優秀者賞</span>を受賞し，後期授業料が全額免除．記事は<a href="https://www.shizuoka.ac.jp/news/detail.html?CN=6136" target="_blank">こちら</a>．'
         },
         {
           date: '2019.10.6-10',
@@ -85,27 +85,27 @@ export default {
         {
           date: '2019.3.2-3',
           content:
-            '<b>第8回 サイエンス・インカレ</b><br>ファイナリストとして口頭発表．審査員特別賞を受賞．記事は<a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154274" target="_blank">こちら</a>．'
+            '<b>第8回 サイエンス・インカレ</b><br>ファイナリストとして口頭発表．<span style="color:maroon;font-weight:bold">審査員特別賞</span>を受賞．記事は<a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154274" target="_blank">こちら</a>．'
         },
         {
           date: '2018.12.15',
           content:
-            '<b>地域づくりin静岡～アプリで実現する地方創生～ ハッカソン</b><br>静岡大学にてハッカソンに参加．審査員特別賞を受賞．記事は<a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154258" target="_blank">こちら</a>．'
+            '<b>地域づくりin静岡～アプリで実現する地方創生～ ハッカソン</b><br>静岡大学にてハッカソンに参加．<span style="color:maroon;font-weight:bold">審査員特別賞</span>を受賞．記事は<a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154258" target="_blank">こちら</a>．'
         },
         {
           date: '2018.9.29',
           content:
-            '<b>地域づくりin静岡～アプリで実現する地方創生～ アイデアソン</b><br>静岡大学にてアイデアソンに参加．ユニーク・アイデア賞を受賞．記事は<a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154235" target="_blank">こちら</a>．'
+            '<b>地域づくりin静岡～アプリで実現する地方創生～ アイデアソン</b><br>静岡大学にてアイデアソンに参加．<span style="color:maroon;font-weight:bold">ユニーク・アイデア賞</span>を受賞．記事は<a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154235" target="_blank">こちら</a>．'
         },
         {
           date: '2018.3.16',
           content:
-            '<b>松江高専 卒業式</b></br>電気情報学会賞，功労賞，優秀成績賞，及び優秀卒業学生表彰．'
+            '<b>松江高専 卒業式</b></br><span style="color:maroon;font-weight:bold">電気情報学会賞</span>，<span style="color:maroon;font-weight:bold">功労賞</span>，<span style="color:maroon;font-weight:bold">優秀成績賞</span>，及び<span style="color:maroon;font-weight:bold">優秀卒業学生表彰</span>．'
         },
         {
           date: '2018.3.2-3',
           content:
-            '<b>第39回 ゲーム情報学研究会</b><br>東京大学にて口頭発表．若手奨励賞を受賞．記事は<a href="https://www.matsue-ct.jp/m/index.php/215-all-topics/topics201803/2463-tp20180327" target="_blank">こちら</a>．'
+            '<b>第39回 ゲーム情報学研究会</b><br>東京大学にて口頭発表．<span style="color:maroon;font-weight:bold">若手奨励賞</span>を受賞．記事は<a href="https://www.matsue-ct.jp/m/index.php/215-all-topics/topics201803/2463-tp20180327" target="_blank">こちら</a>．'
         },
         {
           date: '2017.3.25',
@@ -145,12 +145,12 @@ export default {
         {
           date: '2016.8.21',
           content:
-            '<b>第51回 全国高専大会</b><br>100m平泳ぎ1位，200m平泳ぎ1位．100m平泳ぎ3年連続優勝により全国高等専門学校体育大会特別表彰．記事は<a href="https://www.matsue-ct.jp/m/index.php/198-all-topics/topics201610/2086-tp20161020" target="_blank">こちら</a>．'
+            '<b>第51回 全国高専大会</b><br>100m平泳ぎ1位，200m平泳ぎ1位．100m平泳ぎ3年連続優勝により<span style="color:maroon;font-weight:bold">全国高等専門学校体育大会特別表彰</span>．記事は<a href="https://www.matsue-ct.jp/m/index.php/198-all-topics/topics201610/2086-tp20161020" target="_blank">こちら</a>．'
         },
         {
           date: '2016.3.26',
           content:
-            '<b>第1回 スモウルビー甲子園</b><br>決勝大会に出場し，優勝．記事は<a href="https://www.matsue-ct.jp/it/index.php/44-topics/topics2015b/277-topics20160327" target="_blank">こちら</a>．'
+            '<b>第1回 スモウルビー甲子園</b><br>決勝大会に出場し，<span style="color:maroon;font-weight:bold">優勝</span>．記事は<a href="https://www.matsue-ct.jp/it/index.php/44-topics/topics2015b/277-topics20160327" target="_blank">こちら</a>．'
         },
         {
           date: '2016.2.29-3.4',
@@ -160,12 +160,12 @@ export default {
         {
           date: '2016.2.21',
           content:
-            '<b>第164回 中国室内水泳競技大会</b><br>高校最後の水泳大会．優秀選手賞を受賞．'
+            '<b>第164回 中国室内水泳競技大会</b><br>高校最後の水泳大会．<span style="color:maroon;font-weight:bold">優秀選手賞</span>を受賞．'
         },
         {
           date: '2016.1.11',
           content:
-            '<b>松江市 選手表彰式</b><br>松江市における水泳の優秀選手賞を受賞．'
+            '<b>松江市 選手表彰式</b><br>松江市における水泳の<span style="color:maroon;font-weight:bold">優秀選手賞</span>を受賞．'
         },
         {
           date: '2015.8.30',
@@ -190,12 +190,12 @@ export default {
         {
           date: '2012.11.28',
           content:
-            '<b>しまね調べ学習プレゼンテーションコンテスト</b><br>中学校代表で口頭発表し，優秀賞を受賞．'
+            '<b>しまね調べ学習プレゼンテーションコンテスト</b><br>中学校代表で口頭発表し，<span style="color:maroon;font-weight:bold">優秀賞</span>を受賞．'
         },
         {
           date: '2011.9.2',
           content:
-            '<b>平成23年度 少年の主張 松江大会</b><br>中学校代表で口頭発表し，優秀賞を受賞．'
+            '<b>平成23年度 少年の主張 松江大会</b><br>中学校代表で口頭発表し，<span style="color:maroon;font-weight:bold">優秀賞</span>を受賞．'
         }
       ]
     }
