@@ -117,6 +117,10 @@ export default {
       ],
       rows: [
         {
+          date: '2020.11.10 02:40',
+          content: 'Profileを編集'
+        },
+        {
           date: '2020.10.18 16:50',
           content: 'Profileを編集'
         },
