@@ -51,27 +51,27 @@ export default {
         {
           date: '2020.10.17-18',
           content:
-            '<b>ヒューマンインタフェースサイバーコロキウム</b><br>口頭発表(オンライン)．<span style="color:maroon;font-weight:bold">優秀発表賞</span>を受賞．記事は<a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154495" target="_blank">こちら</a>'
+            '<b>ヒューマンインタフェースサイバーコロキウム</b><br>口頭発表（オンライン）．<span style="color:maroon;font-weight:bold">優秀発表賞</span>を受賞．記事は<a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154495" target="_blank">こちら</a>'
         },
         {
           date: '2020.09.17-19',
           content:
-            '<b>日本認知科学会 第37回大会</b><br>ポスター発表(オンライン)．'
+            '<b>日本認知科学会 第37回大会</b><br>ポスター発表（オンライン）．'
         },
         {
           date: '2020.06.09-12',
           content:
-            '<b>第34回 人工知能学会全国大会</b><br>ポスター発表(オンライン)．'
+            '<b>第34回 人工知能学会全国大会</b><br>ポスター発表（オンライン）．'
         },
         {
           date: '2020.03.06-07',
           content:
-            '<b>HAIシンポジウム2020</b><br>口頭発表(新型コロナウイルスの影響で本大会は中止，有志によるオンライン発表会で発表)．'
+            '<b>HAIシンポジウム2020</b><br>口頭発表（新型コロナウイルスの影響で本大会は中止，有志によるオンライン発表会で発表）．'
         },
         {
           date: '2020.02.29-03.01',
           content:
-            '<b>第9回 サイエンス・インカレ</b><br>ファイナリストとして口頭発表(新型コロナウイルスの影響で本大会は中止，有志によるオンライン発表会で発表)．'
+            '<b>第9回 サイエンス・インカレ</b><br>ファイナリストとして口頭発表（新型コロナウイルスの影響で本大会は中止，有志によるオンライン発表会で発表）．'
         },
         {
           date: '2019.12.12',
@@ -180,7 +180,7 @@ export default {
         {
           date: '2015.07.12',
           content:
-            '<b>平成27年度 島根県選手権水泳競技大会</b><br>100m平泳ぎ，及び200m平泳ぎで県選手権(県内1位)を獲得．記事は<a href="http://shimane-suiren.jp/publics/index/1/detail=1/b_id=5/r_id=129#block5-129" target="_blank">こちら</a>．'
+            '<b>平成27年度 島根県選手権水泳競技大会</b><br>100m平泳ぎ，及び200m平泳ぎで県選手権（県内1位）を獲得．記事は<a href="http://shimane-suiren.jp/publics/index/1/detail=1/b_id=5/r_id=129#block5-129" target="_blank">こちら</a>．'
         },
         {
           date: '2014.08.24',
@@ -190,7 +190,7 @@ export default {
         {
           date: '2014.07.13',
           content:
-            '<b>平成26年度 島根県選手権水泳競技大会</b><br>100m平泳ぎで県選手権(県内1位)を獲得．記事は<a href="http://shimane-suiren.jp/publics/index/1/detail=1/b_id=5/r_id=90#block5-90" target="_blank">こちら</a>．'
+            '<b>平成26年度 島根県選手権水泳競技大会</b><br>100m平泳ぎで県選手権（県内1位）を獲得．記事は<a href="http://shimane-suiren.jp/publics/index/1/detail=1/b_id=5/r_id=90#block5-90" target="_blank">こちら</a>．'
         },
         {
           date: '2012.11.28',
