@@ -46,12 +46,12 @@ export default {
         {
           date: '2020.11.07',
           content:
-            '<b>第3回 静岡テックプラングランプリ</b><br>HAI-NE（ハイネ）チームで出場．<span style="color:maroon;font-weight:bold">最優秀賞</span>（賞金30万円），<span style="color:maroon;font-weight:bold">ヤマハ発動機賞</span>（賞金10万円），<span style="color:maroon;font-weight:bold">浜松いわた信用金庫賞</span>（賞金10万円）のトリプル受賞．'
+            '<b>第3回 静岡テックプラングランプリ</b><br>HAI-NE（ハイネ）チームで出場．<span style="color:maroon;font-weight:bold">最優秀賞</span>（賞金30万円），<span style="color:maroon;font-weight:bold">ヤマハ発動機賞</span>（賞金10万円），<span style="color:maroon;font-weight:bold">浜松いわた信用金庫賞</span>（賞金10万円）のトリプル受賞．記事は<a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154496" target="_blank">こちら</a>．'
         },
         {
           date: '2020.10.17-18',
           content:
-            '<b>ヒューマンインタフェースサイバーコロキウム</b><br>口頭発表（オンライン）．<span style="color:maroon;font-weight:bold">優秀発表賞</span>を受賞．記事は<a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154495" target="_blank">こちら</a>'
+            '<b>ヒューマンインタフェースサイバーコロキウム</b><br>口頭発表（オンライン）．<span style="color:maroon;font-weight:bold">優秀発表賞</span>を受賞．記事は<a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154495" target="_blank">こちら</a>．'
         },
         {
           date: '2020.09.17-19',
