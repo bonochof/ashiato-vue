@@ -32,6 +32,10 @@ export default {
     return {
       items: [
         {
+          title: '缶蹴りを強化学習させてtoioに搭載してみた',
+          src: 'https://www.youtube.com/embed/K_u8gzbbgoA'
+        },
+        {
           title: '【Unity ML-Agents】導入からサンプル学習まで',
           src: 'https://www.youtube.com/embed/ef5TA2wE92c'
         },
