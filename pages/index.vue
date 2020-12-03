@@ -117,6 +117,10 @@ export default {
       ],
       rows: [
         {
+          date: '2020.12.03 23:10',
+          content: 'Profileを編集'
+        },
+        {
           date: '2020.11.27 23:30',
           content: 'Videosページにtoioの缶蹴り動画を追加'
         },
