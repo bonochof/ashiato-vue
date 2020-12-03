@@ -44,6 +44,11 @@ export default {
       ],
       rows: [
         {
+          date: '2020.12.03',
+          content:
+            '<b>ロボットやろうぜ！ - toio & Unity 作品動画コンテスト -</b><br>YouTubeに投稿した動画が<span style="color:maroon;font-weight:bold">審査員特別賞</span>を受賞．受賞した動画は<a href="https://youtu.be/K_u8gzbbgoA" target="_blank">こちら</a>．'
+        },
+        {
           date: '2020.11.07',
           content:
             '<b>第3回 静岡テックプラングランプリ</b><br>HAI-NE（ハイネ）チームで出場．<span style="color:maroon;font-weight:bold">最優秀賞</span>（賞金30万円），<span style="color:maroon;font-weight:bold">ヤマハ発動機賞</span>（賞金10万円），<span style="color:maroon;font-weight:bold">浜松いわた信用金庫賞</span>（賞金10万円）のトリプル受賞．記事は<a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154496" target="_blank">こちら</a>．'
