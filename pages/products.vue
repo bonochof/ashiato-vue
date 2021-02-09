@@ -44,6 +44,13 @@ export default {
     return {
       items: [
         {
+          key: 'lifegame',
+          title: "Conway's Game of Life",
+          link: 'https://ashiato.kenkenpa.net/products/lifegame/index.html',
+          src: '/images/products/lifegame.png',
+          text: 'ブラウザで動くライフゲーム．'
+        },
+        {
           key: 'tea',
           title: 'お茶シミュレータ',
           link:
