@@ -117,6 +117,10 @@ export default {
       ],
       rows: [
         {
+          date: '2021.02.09 16:37',
+          content: 'Productsにライフゲームを追加'
+        },
+        {
           date: '2020.12.03 23:10',
           content: 'Profileを編集'
         },
