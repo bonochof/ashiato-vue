@@ -46,29 +46,28 @@ export default {
         {
           key: 'lifegame',
           title: "Conway's Game of Life",
-          link: 'https://ashiato.kenkenpa.net/products/lifegame/index.html',
+          link: './products/lifegame/index.html',
           src: '/images/products/lifegame.png',
           text: 'ブラウザで動くライフゲーム．'
         },
         {
           key: 'tea',
           title: 'お茶シミュレータ',
-          link:
-            'https://ashiato.kenkenpa.net/products/tea-simulation/index.html',
+          link: './products/tea-simulation/index.html',
           src: '/images/products/tea.png',
           text: 'お茶が飲みやすい温度になるまでの時間を求めるシミュレータ．'
         },
         {
           key: 'p2p-chat',
           title: 'P2P Chat',
-          link: 'https://ashiato.kenkenpa.net/products/p2p-chat/index.html',
+          link: './products/p2p-chat/index.html',
           src: '/images/products/p2p-chat.png',
           text: 'Peer to Peerで通信を行うチャットシステム．'
         },
         {
           key: 'zundoko',
           title: 'ズンドコキヨシプログラム',
-          link: 'https://ashiato.kenkenpa.net/products/zundoko/index.html',
+          link: './products/zundoko/index.html',
           src: '/images/products/zundoko.png',
           text:
             '「ズン」と「ドコ」をランダム生成し，「ズン ズン ズン ズン ドコ」と並んだら「キヨシ！」を生成するプログラム．音声付き．'
@@ -76,8 +75,7 @@ export default {
         {
           key: 'ginrummy',
           title: 'GinRummy InfluenceMap',
-          link:
-            'https://ashiato.kenkenpa.net/products/ginrummy-influencemap/index.html',
+          link: './products/ginrummy-influencemap/index.html',
           src: '/images/products/ginrummy.png',
           text: 'トランプゲーム「ジンラミー」の影響マップ．'
         }

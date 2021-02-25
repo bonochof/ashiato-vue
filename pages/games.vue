@@ -45,7 +45,7 @@ export default {
         {
           key: 'othello',
           title: 'Minimax探索オセロ',
-          link: 'https://ashiato.kenkenpa.net/games/minimax-othello/index.html',
+          link: './games/minimax-othello/index.html',
           src: '/images/games/othello.PNG',
           text:
             '高専4年(19歳)のときに授業で作成したオセロをDXOpalに移植した．Web上で遊べる．Minimax探索するコンピュータを実装している．'
@@ -53,7 +53,7 @@ export default {
         {
           key: 'apple',
           title: 'りんご拾い',
-          link: 'https://ashiato.kenkenpa.net/games/apple-catch/index.html',
+          link: './games/apple-catch/index.html',
           src: '/images/games/apple.PNG',
           text:
             'DXOpalを構ってみた．るびまを参考にして作ったゲーム．Web上で遊べる．'
