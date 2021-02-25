@@ -5,12 +5,7 @@
       <v-col md="6" cols="12">
         <title-image />
         <div class="text-center intro-text">
-          <span class="font-primary">研究者</span>を目指す<span
-            class="font-primary"
-            >情報系</span
-          >の<span class="font-primary">学生</span>が気まぐれで<span
-            class="font-primary"
-            >あしあと</span
+          高田亮介（Ryosuke TAKATA）の<span class="font-primary"> あしあと</span
           >👣を残すサイトです．
         </div>
       </v-col>

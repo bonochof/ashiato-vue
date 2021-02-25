@@ -11,9 +11,9 @@
       </v-col>
     </v-row>
     <v-card class="pc-only">
-      <v-card-title>高田亮介（TAKATA Ryosuke）</v-card-title>
+      <v-card-title>高田亮介（Ryosuke TAKATA）</v-card-title>
       <v-card-subtitle>
-        大学院生 / システムエンジニア / 水泳コーチ
+        大学院生 / 研究補佐員 / 3次元CADソフトエンジニア / 水泳コーチ
       </v-card-subtitle>
       <v-tabs v-model="tab" grow>
         <v-tab v-for="item in items" :key="item.key">
