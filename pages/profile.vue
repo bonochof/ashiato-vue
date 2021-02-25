@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <Header title="あしあと - Profile" />
+    <Header title="高田亮介のあしあと - Profile" />
     <v-row justify="center">
       <v-col md="6" cols="12">
         <title-image />

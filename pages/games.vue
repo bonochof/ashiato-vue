@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <Header title="あしあと - Games" />
+    <Header title="高田亮介のあしあと - Games" />
     <v-row justify="center">
       <v-col md="6" cols="12">
         <title-image />
