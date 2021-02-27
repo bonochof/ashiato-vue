@@ -35,6 +35,8 @@
           <v-card v-else>
             <v-card-title>趣味</v-card-title>
             <hobby />
+            <v-card-title>プログラミング</v-card-title>
+            <skill />
             <v-card-title>興味</v-card-title>
             <interest />
           </v-card>
@@ -65,6 +67,8 @@
             <div v-else>
               <v-card-title>趣味</v-card-title>
               <hobby />
+              <v-card-title>プログラミング</v-card-title>
+              <skill />
               <v-card-title>興味</v-card-title>
               <interest />
             </div>
@@ -82,6 +86,7 @@ import History from '~/components/profile/History.vue'
 import Award from '~/components/profile/Award.vue'
 import Thesis from '~/components/profile/Thesis.vue'
 import Hobby from '~/components/profile/Hobby.vue'
+import Skill from '~/components/profile/Skill.vue'
 import Interest from '~/components/profile/Interest.vue'
 export default {
   components: {
@@ -91,6 +96,7 @@ export default {
     Award,
     Thesis,
     Hobby,
+    Skill,
     Interest
   },
   data() {

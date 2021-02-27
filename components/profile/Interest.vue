@@ -22,9 +22,6 @@ export default {
           title: '旅'
         },
         {
-          title: 'Ruby'
-        },
-        {
           title: '温泉'
         },
         {
