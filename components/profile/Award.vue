@@ -115,7 +115,7 @@ export default {
         {
           date: '2018.03.02-03',
           content:
-            '<b>第39回 ゲーム情報学研究会</b><br>東京大学にて口頭発表．<span style="color:maroon;font-weight:bold">若手奨励賞</span>を受賞．記事は<a href="https://www.matsue-ct.jp/m/index.php/215-all-topics/topics201803/2463-tp20180327" target="_blank">こちら</a>．'
+            '<b>第39回 ゲーム情報学研究会</b><br>東京大学にて口頭発表．<span style="color:maroon;font-weight:bold">若手奨励賞</span>を受賞．記事は<a href="http://www.matsue-ct.jp/it/index.php/48-topics/topics2017b/311-topics20180327" target="_blank">こちら</a>．'
         },
         {
           date: '2017.03.25',
@@ -135,7 +135,7 @@ export default {
         {
           date: '2016.09.24',
           content:
-            '<b>オープンソースカンファレンス2016 Shimane</b><br>学生ゾーン展示ブースにて個人出展及び団体出展．記事は<a href="https://www.ospn.jp/osc2016-shimane/modules/article/article.php?articleid=10/" target="_blank">こちら</a>．'
+            '<b>オープンソースカンファレンス2016 Shimane</b><br>学生ゾーン展示ブースにて個人出展及び団体出展．'
         },
         {
           date: '2016.09.17',
@@ -155,7 +155,7 @@ export default {
         {
           date: '2016.08.21',
           content:
-            '<b>第51回 全国高専大会</b><br>100m平泳ぎ1位，200m平泳ぎ1位．100m平泳ぎ3年連続優勝により<span style="color:maroon;font-weight:bold">全国高等専門学校体育大会特別表彰</span>．記事は<a href="https://www.matsue-ct.jp/m/index.php/198-all-topics/topics201610/2086-tp20161020" target="_blank">こちら</a>．'
+            '<b>第51回 全国高専大会</b><br>100m平泳ぎ1位，200m平泳ぎ1位．100m平泳ぎ3年連続優勝により<span style="color:maroon;font-weight:bold">全国高等専門学校体育大会特別表彰</span>．'
         },
         {
           date: '2016.03.26',
