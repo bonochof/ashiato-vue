@@ -51,6 +51,20 @@ export default {
           text: 'ブラウザで動くライフゲーム．'
         },
         {
+          key: 'cpu',
+          title: 'CPU',
+          link: '',
+          src: '/images/products/cpu.png',
+          text: 'miniCでプログラミング可能な自作CPU（全体回路図）．'
+        },
+        {
+          key: 'minic',
+          title: 'miniC',
+          link: '',
+          src: '/images/products/minic.png',
+          text: 'C言語ライクな自作プログラミング言語．'
+        },
+        {
           key: 'tea',
           title: 'お茶シミュレータ',
           link: './products/tea-simulation/index.html',
