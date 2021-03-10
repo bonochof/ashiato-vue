@@ -44,6 +44,11 @@ export default {
       ],
       rows: [
         {
+          date: '2021.03.09-10',
+          content:
+            '<b>HAIシンポジウム2021</b><br>口頭発表（オンライン）．<span style="color:maroon;font-weight:bold">Student Encouragement Award</span>を受賞．'
+        },
+        {
           date: '2020.12.03',
           content:
             '<b>ロボットやろうぜ！ - toio & Unity 作品動画コンテスト -</b><br>YouTubeに投稿した動画が<span style="color:maroon;font-weight:bold">審査員特別賞</span>を受賞．受賞した動画は<a href="https://youtu.be/K_u8gzbbgoA" target="_blank">こちら</a>．'
