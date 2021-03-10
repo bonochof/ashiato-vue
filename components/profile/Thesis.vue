@@ -21,8 +21,9 @@ export default {
         {
           title: '缶蹴りにおける他者知覚を必要としない協調の実現',
           content: [
-            'HAIシンポジウム2021, Mar. 2021',
-            '高田 亮介, 坂本 孝丈, 竹内 勇剛'
+            'HAIシンポジウム2021, G-20, Mar. 2021',
+            '高田 亮介, 坂本 孝丈, 竹内 勇剛',
+            '【Student Encouragement Award 受賞】'
           ]
         },
         {
