@@ -22,7 +22,7 @@ export default {
           title:
             'Design of Cooperative Interaction between Humans and AI Creatures through Reinforcement Learning',
           content: [
-            'Proceedings of the 7th International Conference on Human-Agent Interaction, pp.220-222, Oct. 2019',
+            'Proceedings of the 7th International Conference on Human-Agent Interaction, pp. 220-222, Oct. 2019',
             'Ryosuke TAKATA, Yugo TAKEUCHI',
             '(査読あり, ポスター発表)'
           ]
