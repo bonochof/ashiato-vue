@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <Header title="高田亮介のあしあと - Profile" />
+    <Header title="たかたのあしあと - Profile" />
     <v-row justify="center">
       <v-col md="6" cols="12">
         <title-image />
@@ -13,7 +13,7 @@
     <v-card class="pc-only">
       <v-card-title>高田亮介（Ryosuke TAKATA）</v-card-title>
       <v-card-subtitle>
-        大学院生 / 研究補佐員 / 3次元CADソフトエンジニア / 水泳コーチ
+        大学院生 / 研究補佐員 / ソフトウェアエンジニア / 水泳コーチ
       </v-card-subtitle>
       <v-tabs v-model="tab" grow>
         <v-tab v-for="item in items" :key="item.key">
@@ -46,7 +46,7 @@
     <v-card class="sp-only">
       <v-card-title>高田亮介（Takata Ryosuke）</v-card-title>
       <v-card-subtitle>
-        大学院生 / 研究補佐員 / 3次元CADソフトエンジニア / 水泳コーチ
+        大学院生 / 研究補佐員 / ソフトウェアエンジニア / 水泳コーチ
       </v-card-subtitle>
       <v-expansion-panels popout="true" multiple="true">
         <v-expansion-panel v-for="item in items" :key="item.key">

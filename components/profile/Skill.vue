@@ -26,7 +26,7 @@ export default {
           title: 'Ruby',
           content: [
             '2015年～',
-            '1番好きな言語　なぜならRuby City Matsue出身なので'
+            '1番好きな言語　なぜならRubyCity出身なので'
           ]
         },
         {
@@ -42,13 +42,13 @@ export default {
         },
         {
           title: 'C#',
-          content: ['2018年～', '研究・アルバイトで使ってる']
+          content: ['2018年～', '研究・業務で使用中']
         },
         {
           title: 'その他',
           content: [
             'JavaScript，C++，PHP，LISP，Prolog，Objective-C，SQL',
-            'どれもアプリ・システム開発経験有り'
+            'すべてアプリ・システム開発経験有り'
           ]
         }
       ]
