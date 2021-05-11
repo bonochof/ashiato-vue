@@ -32,6 +32,11 @@ export default {
     return {
       items: [
         {
+          title:
+            'toioで人工知能をつくろう ～ビジュアルプログラミングで強化学習～',
+          src: 'https://www.youtube.com/embed/L-u9dCt4yIw'
+        },
+        {
           title: '缶蹴りを強化学習させてtoioに搭載してみた',
           src: 'https://www.youtube.com/embed/K_u8gzbbgoA'
         },
