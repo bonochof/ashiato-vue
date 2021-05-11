@@ -1,7 +1,7 @@
 {
   "name": "vue",
   "version": "1.0.0",
-  "description": "My portfolio project using Nuxt.js",
+  "description": "高田亮介（Ryosuke TAKATA）のあしあとを残すサイトです．",
   "author": "bonochof",
   "private": true,
   "scripts": {

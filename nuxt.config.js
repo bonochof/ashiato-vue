@@ -13,6 +13,11 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
+        hid: 'keywords',
+        name: 'keywords',
+        content: '高田,亮介,Ryosuke,Takata,あしあと,強化学習,静岡大学,松江高専'
+      },
+      {
         hid: 'description',
         name: 'description',
         content: process.env.npm_package_description || ''
