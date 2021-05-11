@@ -30,7 +30,14 @@
             <award />
           </v-card>
           <v-card v-else-if="item.key === 'thesis'">
-            <thesis />
+            <v-card-title>学術論文</v-card-title>
+            <thesis01 />
+            <v-card-title>国際会議における発表</v-card-title>
+            <thesis02 />
+            <v-card-title>国内学会・シンポジウムにおける発表</v-card-title>
+            <thesis03 />
+            <v-card-title>招待講演</v-card-title>
+            <thesis04 />
           </v-card>
           <v-card v-else>
             <v-card-title>趣味</v-card-title>
@@ -62,7 +69,14 @@
               <award />
             </div>
             <div v-else-if="item.key === 'thesis'">
-              <thesis />
+              <v-card-title>学術論文</v-card-title>
+              <thesis01 />
+              <v-card-title>国際会議における発表</v-card-title>
+              <thesis02 />
+              <v-card-title>国内学会・シンポジウムにおける発表</v-card-title>
+              <thesis03 />
+              <v-card-title>招待講演</v-card-title>
+              <thesis04 />
             </div>
             <div v-else>
               <v-card-title>趣味</v-card-title>
@@ -84,7 +98,10 @@ import Header from '~/components/Header.vue'
 import TitleImage from '~/components/TitleImage.vue'
 import History from '~/components/profile/History.vue'
 import Award from '~/components/profile/Award.vue'
-import Thesis from '~/components/profile/Thesis.vue'
+import Thesis01 from '~/components/profile/Thesis01.vue'
+import Thesis02 from '~/components/profile/Thesis02.vue'
+import Thesis03 from '~/components/profile/Thesis03.vue'
+import Thesis04 from '~/components/profile/Thesis04.vue'
 import Hobby from '~/components/profile/Hobby.vue'
 import Skill from '~/components/profile/Skill.vue'
 import Interest from '~/components/profile/Interest.vue'
@@ -94,7 +111,10 @@ export default {
     TitleImage,
     History,
     Award,
-    Thesis,
+    Thesis01,
+    Thesis02,
+    Thesis03,
+    Thesis04,
     Hobby,
     Skill,
     Interest

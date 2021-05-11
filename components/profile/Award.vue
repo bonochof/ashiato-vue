@@ -44,6 +44,11 @@ export default {
       ],
       rows: [
         {
+          date: '2021.03.17-05.10',
+          content:
+            '<b>toioの「Do!コン」</b><br>キューブ型ロボットtoioとビジュアルプログラミングtoio Doを使った作品コンテスト．現在審査中．応募作品は<a href="https://protopedia.net/prototype/2249" target="_blank">こちら</a>．'
+        },
+        {
           date: '2021.03.09-10',
           content:
             '<b>HAIシンポジウム2021</b><br>口頭発表（オンライン）．<span style="color:maroon;font-weight:bold">Student Encouragement Award</span>を受賞．'
@@ -125,7 +130,7 @@ export default {
         {
           date: '2017.03.25',
           content:
-            '<b>第2回 スモウルビー甲子園 トークセッション</b><br>まつもとゆきひろさん，池澤あやかさんとのトークセッションに参加．'
+            '<b>第2回 スモウルビー・プログラミング甲子園 トークセッション</b><br>まつもとゆきひろさん，池澤あやかさんとのトークセッションに参加．'
         },
         {
           date: '2017.01.06-08',
@@ -145,7 +150,7 @@ export default {
         {
           date: '2016.09.17',
           content:
-            '<b>スモウルビー甲子園体験セミナー</b><br>松江オープンソースラボにて講演．'
+            '<b>スモウルビー・プログラミング甲子園 体験セミナー</b><br>松江オープンソースラボにて講演．'
         },
         {
           date: '2016.09.10-11',
@@ -165,7 +170,7 @@ export default {
         {
           date: '2016.03.26',
           content:
-            '<b>第1回 スモウルビー甲子園</b><br>決勝大会に出場し，<span style="color:maroon;font-weight:bold">優勝</span>．記事は<a href="https://www.matsue-ct.jp/it/index.php/44-topics/topics2015b/277-topics20160327" target="_blank">こちら</a>．'
+            '<b>第1回 スモウルビー・プログラミング甲子園</b><br>決勝大会に出場し，<span style="color:maroon;font-weight:bold">優勝</span>．記事は<a href="https://www.matsue-ct.jp/it/index.php/44-topics/topics2015b/277-topics20160327" target="_blank">こちら</a>．'
         },
         {
           date: '2016.02.29-03.04',

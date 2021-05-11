@@ -20,18 +20,18 @@ export default {
       items: [
         {
           title: 'C',
-          content: ['2013年～', '高専1年生の授業でHello Worldした']
-        },
-        {
-          title: 'Ruby',
           content: [
-            '2015年～',
-            '1番好きな言語　なぜならRubyCity出身なので'
+            '2013年～',
+            '高専1年生の授業でHello Worldした　なんでもできる'
           ]
         },
         {
+          title: 'Ruby',
+          content: ['2015年～', '1番好きな言語　なぜならRubyCity出身なので']
+        },
+        {
           title: 'Python',
-          content: ['2016年～', '研究でお世話になってる']
+          content: ['2016年～', '研究でお世話になってる　機械学習とか分析とか']
         },
         {
           title: 'Java',
