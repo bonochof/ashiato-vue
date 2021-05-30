@@ -44,9 +44,9 @@ export default {
       ],
       rows: [
         {
-          date: '2021.03.17-05.10',
+          date: '2021.03.17-05.28',
           content:
-            '<b>toioの「Do!コン」</b><br>キューブ型ロボットtoioとビジュアルプログラミングtoio Doを使った作品コンテスト．現在審査中．応募作品は<a href="https://protopedia.net/prototype/2249" target="_blank">こちら</a>．'
+            '<b>toioの「Do!コン」</b><br>キューブ型ロボットtoioとビジュアルプログラミングtoio Doを使った作品コンテスト．第一次審査（アイデア公募），第二次審査（作品応募）を通過して，最終審査会で<span style="color:maroon;font-weight:bold">審査員特別賞</span>を受賞．受賞した作品は<a href="https://protopedia.net/prototype/2249" target="_blank">こちら</a>．審査の様子は<a href="https://www.youtube.com/watch?v=cExEaZXYN9M&t=5262" target="_blank">こちら</a>．'
         },
         {
           date: '2021.03.09-10',
