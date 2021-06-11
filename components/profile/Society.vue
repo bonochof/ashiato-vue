@@ -20,15 +20,15 @@ export default {
       items: [
         {
           title: '情報処理学会',
-          content: '2016年～'
+          content: ['2016年～']
         },
         {
           title: '進化計算学会',
-          content: '2020年～'
+          content: ['2020年～']
         },
         {
           title: '人工知能学会',
-          content: '2021年～'
+          content: ['2021年～']
         }
       ]
     }
