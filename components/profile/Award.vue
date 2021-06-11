@@ -44,6 +44,11 @@ export default {
       ],
       rows: [
         {
+          date: '2021.06.08-11',
+          content:
+            '<b>第35回 人工知能学会全国大会</b><br>口頭発表（オンライン）．'
+        },
+        {
           date: '2021.03.17-05.28',
           content:
             '<b>toioの「Do!コン」</b><br>キューブ型ロボットtoioとビジュアルプログラミングtoio Doを使った作品コンテスト．第一次審査（アイデア公募），第二次審査（作品応募）を通過して，最終審査会で<span style="color:maroon;font-weight:bold">審査員特別賞</span>を受賞．受賞した作品は<a href="https://protopedia.net/prototype/2249" target="_blank">こちら</a>．審査の様子は<a href="https://www.youtube.com/watch?v=cExEaZXYN9M&t=5262" target="_blank">こちら</a>．'

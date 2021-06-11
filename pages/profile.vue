@@ -40,10 +40,12 @@
             <thesis04 />
           </v-card>
           <v-card v-else>
-            <v-card-title>趣味</v-card-title>
-            <hobby />
             <v-card-title>プログラミング</v-card-title>
             <skill />
+            <v-card-title>所属学会</v-card-title>
+            <society />
+            <v-card-title>趣味</v-card-title>
+            <hobby />
             <v-card-title>興味</v-card-title>
             <interest />
           </v-card>
@@ -51,7 +53,7 @@
       </v-tabs-items>
     </v-card>
     <v-card class="sp-only">
-      <v-card-title>高田亮介（Takata Ryosuke）</v-card-title>
+      <v-card-title>高田亮介（Ryosuke TAKATA）</v-card-title>
       <v-card-subtitle>
         大学院生 / 研究補佐員 / ソフトウェアエンジニア / 水泳コーチ
       </v-card-subtitle>
@@ -79,10 +81,12 @@
               <thesis04 />
             </div>
             <div v-else>
-              <v-card-title>趣味</v-card-title>
-              <hobby />
               <v-card-title>プログラミング</v-card-title>
               <skill />
+              <v-card-title>所属学会</v-card-title>
+              <society />
+              <v-card-title>趣味</v-card-title>
+              <hobby />
               <v-card-title>興味</v-card-title>
               <interest />
             </div>
@@ -102,8 +106,9 @@ import Thesis01 from '~/components/profile/Thesis01.vue'
 import Thesis02 from '~/components/profile/Thesis02.vue'
 import Thesis03 from '~/components/profile/Thesis03.vue'
 import Thesis04 from '~/components/profile/Thesis04.vue'
-import Hobby from '~/components/profile/Hobby.vue'
 import Skill from '~/components/profile/Skill.vue'
+import Society from '~/components/profile/Society.vue'
+import Hobby from '~/components/profile/Hobby.vue'
 import Interest from '~/components/profile/Interest.vue'
 export default {
   components: {
@@ -115,8 +120,9 @@ export default {
     Thesis02,
     Thesis03,
     Thesis04,
-    Hobby,
     Skill,
+    Society,
+    Hobby,
     Interest
   },
   data() {

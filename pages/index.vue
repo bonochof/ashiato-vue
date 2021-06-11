@@ -112,6 +112,10 @@ export default {
       ],
       rows: [
         {
+          date: '2021.06.11 13:05',
+          content: '活動/受賞を更新'
+        },
+        {
           date: '2021.03.10 21:05',
           content: 'Profileを編集'
         },
