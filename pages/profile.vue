@@ -26,8 +26,8 @@
           <v-card v-if="item.key === 'history'">
             <history />
           </v-card>
-          <v-card v-else-if="item.key === 'award'">
-            <award />
+          <v-card v-else-if="item.key === 'activity'">
+            <activity />
           </v-card>
           <v-card v-else-if="item.key === 'thesis'">
             <v-card-title>学術論文</v-card-title>
@@ -38,6 +38,8 @@
             <thesis03 />
             <v-card-title>招待講演</v-card-title>
             <thesis04 />
+            <v-card-title>受賞</v-card-title>
+            <thesis05 />
           </v-card>
           <v-card v-else>
             <v-card-title>プログラミング</v-card-title>
@@ -67,8 +69,8 @@
             <div v-if="item.key === 'history'">
               <history />
             </div>
-            <div v-else-if="item.key === 'award'">
-              <award />
+            <div v-else-if="item.key === 'activity'">
+              <activity />
             </div>
             <div v-else-if="item.key === 'thesis'">
               <v-card-title>学術論文</v-card-title>
@@ -79,6 +81,8 @@
               <thesis03 />
               <v-card-title>招待講演</v-card-title>
               <thesis04 />
+              <v-card-title>受賞</v-card-title>
+              <thesis05 />
             </div>
             <div v-else>
               <v-card-title>プログラミング</v-card-title>
@@ -101,11 +105,12 @@
 import Header from '~/components/Header.vue'
 import TitleImage from '~/components/TitleImage.vue'
 import History from '~/components/profile/History.vue'
-import Award from '~/components/profile/Award.vue'
+import Activity from '~/components/profile/Activity.vue'
 import Thesis01 from '~/components/profile/Thesis01.vue'
 import Thesis02 from '~/components/profile/Thesis02.vue'
 import Thesis03 from '~/components/profile/Thesis03.vue'
 import Thesis04 from '~/components/profile/Thesis04.vue'
+import Thesis05 from '~/components/profile/Thesis05.vue'
 import Skill from '~/components/profile/Skill.vue'
 import Society from '~/components/profile/Society.vue'
 import Hobby from '~/components/profile/Hobby.vue'
@@ -115,11 +120,12 @@ export default {
     Header,
     TitleImage,
     History,
-    Award,
+    Activity,
     Thesis01,
     Thesis02,
     Thesis03,
     Thesis04,
+    Thesis05,
     Skill,
     Society,
     Hobby,
@@ -135,14 +141,14 @@ export default {
           tab: '歴史'
         },
         {
-          key: 'award',
+          key: 'activity',
           icon: 'mdi-account-details',
-          tab: '活動/受賞'
+          tab: '活動'
         },
         {
           key: 'thesis',
           icon: 'mdi-account-edit',
-          tab: '発表/論文'
+          tab: '業績'
         },
         {
           key: 'other',
